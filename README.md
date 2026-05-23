@@ -18,7 +18,7 @@ A compact microstrip Wilkinson Power Divider designed for 2.0 GHz, simulated in 
 
 ## Layout
 
-![3D Layout](figures/layout_3d.png)
+![3D Layout](figure/layout_3d.png)
 
 > Curved λ/4 branches transition from a 50 Ω input to two 70.7 Ω arms. A lumped 100 Ω resistor bridges the output terminals for isolation.
 
@@ -26,7 +26,7 @@ A compact microstrip Wilkinson Power Divider designed for 2.0 GHz, simulated in 
 
 ## S-Parameter Response
 
-![S-Parameters](figures/sparams_plot.png)
+![S-Parameters](figure/sparams_plot.png)
 
 - **$S_{11}$** — deep null at 2.02 GHz (−29.13 dB), harmonic null at 6.04 GHz
 - **$S_{21}$ / $S_{31}$** — balanced −3.65 dB split across both outputs
@@ -36,7 +36,7 @@ A compact microstrip Wilkinson Power Divider designed for 2.0 GHz, simulated in 
 
 ## Electric Field Distribution
 
-![E-Field](figures/efield.png)
+![E-Field](figure/efield.png)
 
 Symmetric field magnitude across both branches confirms equal in-phase power split. Zero potential difference at the resistor terminals means no current flows through it during matched operation.
 
